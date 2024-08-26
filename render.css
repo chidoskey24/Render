@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: white;
+    font-family: sans-serif;
+    font-weight: light;
+    /* position: relative; */
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 75px;
+    padding: 0 px;
+    background-color: white;
+    align-items: center;
+    border-width: 0;
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+img {
+    height: 50px;
+}
+
+.options a {
+    color: black;
+    padding: 0 10px;
+}
+
+.text {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.first {
+    display: flex;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 200px;
+    a {
+        height: 30px;
+        align-content: center;
+        padding: 5px;
+        margin: 15px;
+    }
+    
+}
+
+ul.logs {
+    display: flex;
+    align-items: center;
+
+    .signin a {
+        color: black;
+        padding: 5px;
+    }
+
+    .start a {
+        color: white;
+        align-items: center;
+    }
+}
+
+.start {
+    background-color: black;
+    color: white;
+    height: 74px;
+    margin-top: -1px;
+    width: 4cm;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding-left: 13%;
+}
+
+.signin {
+    width: 3cm;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    padding-left: 14%;
+}
+
+
+.page {
+    padding-top: 200px;
+    width: 600px;
+    margin-left: 120px;
+}
+
+.word {
+    font-size: 70px;
+    width: 500px;
+}
+
+.word2 {
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.opt {
+    margin-top: 30px;
+    display: flex;
+    /* margin-left: 2%; */
+    gap: 20px;
+    height: 60px;
+    align-items: center;
+}
+
+.options a:hover {
+    background-color: rgba(216, 161, 247, 0.3);
+}
+
+.layout {
+    display: flex;
+}
+
+.image img {
+    margin-top: 180px;
+    width: 450px;
+    height: 450px;
+    margin-left: 150px;
+    border: 2px;
+    border-style: solid;
+}
+
+.free {
+    border: 1px;
+    background-color: black;
+    color: white;
+    height: 60px;
+    align-content: center;
+    padding: 0 20px;
+}
+
+.contact {
+    border: 2px;
+    border-style: solid;
+    height: 60px;
+    align-content: center;
+    padding: 0 20px;
+}
+
+li.signin a:hover {
+    background-color: rgba(216, 161, 247, 0.3);
+}
+
+.start:hover {
+    background-color: #8a05ff;
+}
